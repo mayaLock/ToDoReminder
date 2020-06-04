@@ -1,0 +1,15 @@
+﻿<!-- Dipayan Sarker; March 07, 2020 -->
+<Application x:Class="ToDoReminder.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ListBoxItemStyle" TargetType="{x:Type ListBoxItem}">
+                <Setter Property="FontFamily" Value="Courier New"/>
+                <Setter Property="FontSize" Value="12"/>
+                <Setter Property="TextBlock.TextWrapping" Value="WrapWithOverflow"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
